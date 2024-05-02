@@ -126,7 +126,7 @@ class Bag:
             while True:
                 item = next(bag_iterator)
                 print(item)
-        except StopIteration:
+    except StopIteration:
 
         """
         TODO: Write this implementation
