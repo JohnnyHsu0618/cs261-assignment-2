@@ -155,9 +155,10 @@ class DynamicArray:
 
         if self._size >= self._capacity:     # Double the capacity if the internal storage is full or less
             self._resize(2 * self._capacity)
-
-        self.set_at_index(self._size - 1, value)  # Add the new value at the end of the array
+       
         self._size += 1
+        self.set_at_index(self._size , value)  # Add the new value at the end of the array
+        
         """
         TODO: Write this implementation
         """
